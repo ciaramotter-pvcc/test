@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Name: Ciara Motter-->
+<!--The base of this program was created in chatGPT -->
+<title>Chapter 4</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        table {
+            width: 50%;
+            background-color: #d0ade6;
+            border: 2px solid #8000ff;
+            border-collapse: collapse;
+            font-family: Verdana, sans-serif;
+        }
+        th, td {
+            border: 2px solid #8000ff;
+            padding: 10px;
+            text-align: left;
+            color: rgb(60, 0, 139);
+        }
+    </style>
+</head>
+<body style="background-color: #66428a;">
+    <h1 style="text-align: center;"> Chapter 4: Networking </h1>
+    <h1 style="text-align: center;"> Ciara Motter</h1>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <td colspan="2";><b>Network Classifications</b></td>
+        </tr>
+        <tr>
+            <td>LAN</td>
+            <td>A computer network that normally consists of a collection of computers in a single building or building complex. Examples include university campuses or manufacturing plants.</td>
+        </tr>
+        <tr>
+            <td>MAN</td>
+            <td>A computer network that has an intermediate size, one that can span a local community.</td>
+        </tr>
+        <tr>
+            <td>WAN</td>
+            <td>A computer network that can link machines over a greater distance. They can link machines in neighboring cities or opposite sides of the world.</td>
+        </tr>
+        <tr>
+            <td colspan="2";><b>Network Models</b></td>
+        </tr>
+        <tr>
+            <td>Bus Network</td>
+            <td> A topology of a network in which machines are all connected to a common communication line.</td>
+        </tr>
+        <tr>
+            <td>Star Network</td>
+            <td> A topology of a network where a single machine serves as a focal point to which all the others are connected.</td>
+        </tr>
+        <tr>
+            <td colspan="2";><b>Protocols</b></td>
+        </tr>
+        <tr>
+            <td>CSMA/CD Ethernet</td>
+            <td> This protocol dictates that each message be broadcast to all the machines on the bus. It is not compatible with star networks.</td>
+        </tr> 
+        <tr>
+            <td>CSMA/CA Wifi</td>
+            <td> A protocol where a wireless network adopts the policy of trying to avoid collisions rather than trying to detect them.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Combining Networks</b></td>
+        </tr>
+        <tr>
+            <td>Repeater</td>
+            <td> A divice that that passes signals back and forth between the two original buses without considering the meaning of signals.</td>
+        </tr> 
+        <tr>
+            <td>Bridge</td>
+            <td>A divice like the repeater, connects two buses, but it does not necessarily pass all messages across the connection. A destination address comes with the message and is forwarded to a machine that has relation to the address.</td>
+        </tr> 
+        <tr>
+            <td>Switch</td>
+            <td>A bridge with multiple connections, allowing it to connect to several buses rather than just two.</td>
+        </tr> 
+        <tr>
+            <td>Router</td>
+            <td>A divice that provides links between networks while allowing each network to maintain its unique internal characteristics.</td>
+        </tr> 
+        <tr>
+            <td>Gateway</td>
+            <td> A passage way between a network and the outside world.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Client/server model</b></td>
+        </tr>
+        <tr>
+            <td>P2P: peer to peer</td>
+            <td>A client/server model that involves one process (the server) providing a service to and recieve service from each other.</td>
+        </tr> 
+        <tr>
+            <td>Distributed sytem</td>
+            <td> A client/server model that consist of softwar units that execute as processes on different computers.</td>
+        </tr> 
+        <tr>
+            <td>Cloud Computing</td>
+            <td>A client/server model is where huge pools of shared computers on the network can be allocated for use by clients as needed.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Internet Addressing</b></td>
+        </tr>
+        <tr>
+            <td>Tier 1</td>
+            <td>ISPs that consist of very high-speed, high-capacity, international WANs.</td>
+        </tr> 
+        <tr>
+            <td>Tier 2</td>
+            <td>ISPs that tend to be more regional in scope and less potent in their capabilities.</td>
+        </tr> 
+        <tr>
+            <td>Tier 3</td>
+            <td>An access ISP that is essentially an independent internet, sometimes called an intranet, operated by a single authority that is in the business of supplying internet access to individual homes and businesses.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>IP address</b></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.icann.org/>"> ICANN</a></td>
+            <td>A nonprofit corporation established to coordinate the internet's operation.</td>
+        </tr> 
+        <tr>
+            <td>DNS</td>
+            <td>An internet-wide dictionary system that collectivley consist of name servers that converts a mnemonic address into a IP address.</td>
+        </tr> 
+        <tr>
+            <td>TLD: Top-Level Domain</td>
+            <td>The suffixes that are at the end of a domain name.</td>
+        </tr> 
+        <tr>
+            <td><a href="https://www.worldstandards.eu/other/tlds/">Country-code TLDs</a></td>
+            <td>Two letter TLDs made for specific countries.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Internet Protocols</b></td>
+        </tr>
+        <tr>
+            <td>FTP</td>
+            <td>An application for listing and copying files across the network.</td>
+        </tr> 
+        <tr>
+            <td>HTTP</td>
+            <td>Handles webservers and browsers.</td>
+        </tr> 
+        <tr>
+            <td>SMTP</td>
+            <td>Defines a way that two computers on the network may interact when transmiting an email message from one host to the other.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>World-wide web</b></td>
+        </tr>
+        <tr>
+            <td>URL</td>
+            <td>A unique address given to a document that contains information needed by the browser to contact the proper server and request the desired document.</td>
+        </tr> 
+        <tr>
+            <td>Client-side activities</td>
+            <td>An activity that is performed by a client. (such as a browser) </td>
+        </tr> 
+        <tr>
+            <td>Server-side activities</td>
+            <td>An activity that is performed by a server. (such as a webserver)</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Internet four-layer software</b></td>
+        </tr>
+        <tr>
+            <td>Application layer</td>
+            <td>Where the message originates from. It uses the transport layer to send and recieve messages over the internet.</td>
+        </tr> 
+        <tr>
+            <td>Transport layer</td>
+            <td>Accepts messages from the application layer and ensures that the messages are properly formatted for transmission over the internet.</td>
+        </tr> 
+        <tr>
+            <td>Network layer</td>
+            <td>Decides in which direction a packet should be sent at each step along with the packet's path through the internet.</td>
+        </tr> 
+        <tr>
+            <td>Link layer</td>
+            <td>Transfers the packet and deals with the communication details particular to the individual network in which the computer resides.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Internet is:</b></td>
+        </tr>
+        <tr>
+            <td>Packet-switching Network</td>
+            <td>A method of transferring data to a network in the form of packets.</td>
+        </tr> 
+        <tr>
+            <td>Fault tolerant</td>
+            <td>Allows an system to maintain proper operation despite failure or faults in one or more of its components. </td>
+        </tr> 
+        <tr>
+            <td>Redundant</td>
+            <td> Something that is not needed</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Cybersecurity</b></td>
+        </tr>
+        <tr>
+            <td>Malware</td>
+            <td>malicious softwares that can be on a computer itself or from a computer from a distance.</td>
+        </tr> 
+        <tr>
+            <td>Virus</td>
+            <td>A software that infects a computer by inserting itself into programs already inside the machine. </td>
+        </tr> 
+        <tr>
+            <td>Worm</td>
+            <td> An autonomous program that transfers itself though a network, taking up residence in computer and forwarding itself to other computers.</td>
+        </tr> 
+        <tr>
+            <td>Trojan Horse</td>
+            <td>A program that enters a computer system desguised as a desirable program, such as a game or useful utility package, that is willingly imported by the victim.</td>
+        </tr> 
+        <tr>
+            <td>stuff</td>
+            <td> yes</td>
+        </tr> 
+        <tr>
+            <td>Spyware</td>
+            <td>Software that collects information about activities at the computer on which it resides and reports that information back to the instigator of the attack.</td>
+        </tr> 
+        <tr>
+            <td>Phishing</td>
+            <td>A technique of obtaining information explicity by simply asking for it.</td>
+        </tr> 
+        <tr>
+            <td>DDos attack</td>
+            <td>An attack made for multiple hosts by generating a large amount of messages in a short period of time.</td>
+        </tr> 
+        <tr>
+            <td colspan="2";><b>Protection</b></td>
+        </tr>
+        <tr>
+            <td>Firewall</td>
+            <td>A program that filters traffic passing into a point in the network.</td>
+        </tr> 
+        <tr>
+            <td>Spam filter</td>
+            <td>A variation of a firewall that is designed to block unwanted email.</td>
+        </tr> 
+        <tr>
+            <td>Proxy server</td>
+            <td>A software unit that acts as an intermediary between a client and a server with a goal of shielding the client from adverse actions of the server.</td>
+        </tr> 
+        <tr>
+            <td>Antivirus software</td>
+            <td>A softwre that detects and removes the presence of known viruses and other infections.</td>
+        </tr> 
+        <tr>
+            <td>Cryptography</td>
+            <td>The study of sending and recieving messages securely in the presence of adversaries.</td>
+        </tr> 
+        <tr>
+            <td>Public key encryption</td>
+            <td>Encrypts and decrypts messages.</td>
+        </tr> 
+    </table>
+
+</body>
+</html>
