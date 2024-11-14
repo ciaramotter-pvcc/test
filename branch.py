@@ -59,7 +59,6 @@ def display_results():
     print('Service fees           $ ' + format(service_fee,'8,.2f'))
     print('Total                  $ ' + format(total,'8,.2f'))
     print('---------------------------------------')
-    print('
     print(str(datetime.datetime.now()))
 
 ############# call on main program to execute #############
